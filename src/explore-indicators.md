@@ -5,6 +5,11 @@ toc: false
 
 # Explore data by indicators
 
+
+```js
+const apt_data = FileAttachment("data/apt_data.csv").csv({typed: true});
+```
+
 ```js
 const indicators = view(
   Inputs.select(
